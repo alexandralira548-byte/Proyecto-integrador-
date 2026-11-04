@@ -1,11 +1,18 @@
-# -Sistema de Reporte de Fallas - UNAN-León
+# Sistema de Reporte de Fallas de Computadoras de Laboratorio
 
-Integrantes:
+Integrantes
+
 - Andy Dayana Hernández Urrieta
 - Alexandra Paola Lira Blandón
 - Gleyssi Nereyda Barrera Pérez
 - Jeisling María Muñoz Vallejos
 
-Ejecución:
+Ejecución
+
+Para ejecutar el proyecto, primero instalar Flask:
+
 pip install Flask
-python src/presentacion/presentacion.py
+
+Luego ejecutar el archivo principal:
+
+python src/presentation/app.py

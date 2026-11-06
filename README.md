@@ -25,7 +25,7 @@ El prototipo contiene diez pantallas editables que representan el recorrido prin
 
 docs/
 src/
-  presentacion/
+  presentation/
   business/
   data/
 tests/
@@ -35,7 +35,7 @@ README.md
 Descripción de las carpetas
 
 - docs/: contiene la documentación técnica, el modelo de datos, el script SQL y las evidencias del prototipo.
-- src/presentacion/: contiene el código relacionado con la presentación e interfaces del sistema.
+- src/presentation/: contiene el código relacionado con la presentación e interfaces del sistema.
 - src/business/: destinada a la lógica de negocio y al procesamiento de las solicitudes.
 - src/data/: destinada a la administración y conexión con los datos.
 - tests/: contiene la documentación de las pruebas realizadas al sistema.
@@ -86,7 +86,7 @@ pip install Flask
 
 Después, desde la carpeta principal del proyecto, ejecutar:
 
-python src/presentacion/presentacion.py
+python src/presentation/app.py
 
 Luego, abrir en el navegador la dirección local que muestra Flask, normalmente:
 

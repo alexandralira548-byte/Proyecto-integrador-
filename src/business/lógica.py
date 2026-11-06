@@ -1,5 +1,5 @@
 
-from datos.almacenamiento import obtener_reportes, buscar_reporte, guardar_reporte, actualizar_solucion
+from data.almacenamiento import obtener_reportes, buscar_reporte, guardar_reporte, actualizar_solucion
 
 
 def contar_reportes():
